@@ -1,17 +1,18 @@
 # Swap-two-case
 Swap to number using 3rd variable
 import java.util.*;  
-class Swap_With {  
-    public static void main(String[] args) {  
-       int x, y, t;  
+public class SwapWithVariable {  
+    public static void main(String[] args) 
+    {  
+       int x, y, temp;  
        Scanner sc = new Scanner(System.in);  
        System.out.println("Enter the value of X and Y");  
        x = sc.nextInt();  
        y = sc.nextInt();  
        System.out.println("before swapping numbers: "+x +"  "+ y);   
-       t = x;  
+       temp = x;  
        x = y;  
-       y = t;  
+       y = temp;  
        System.out.println("After swapping: "+x +"   " + y);  
        System.out.println( );  
     }    

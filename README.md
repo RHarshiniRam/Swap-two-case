@@ -9,11 +9,11 @@ public class SwapWithVariable {
        System.out.println("Enter the value of X and Y");  
        x = sc.nextInt();  
        y = sc.nextInt();  
-       System.out.println("before swapping numbers: "+x +"  "+ y);   
+       System.out.println("before swapping numbers: "+x +""+ y);   
        temp = x;  
        x = y;  
        y = temp;  
-       System.out.println("After swapping: "+x +"   " + y);  
+       System.out.println("After swapping: "+x +" " + y);  
        System.out.println( );  
     }    
 } 
